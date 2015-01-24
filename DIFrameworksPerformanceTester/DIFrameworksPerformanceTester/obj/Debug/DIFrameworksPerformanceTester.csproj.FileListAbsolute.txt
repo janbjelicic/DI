@@ -1,0 +1,15 @@
+d:\FER\IX. Semestar\Diplomski Projekt\DIFrameworksPerformanceTester\DIFrameworksPerformanceTester\DIFrameworksPerformanceTester\bin\Debug\DIFrameworksPerformanceTester.exe.config
+D:\FER\IX. Semestar\Diplomski Projekt\DIFrameworksPerformanceTester\DIFrameworksPerformanceTester\bin\Debug\DIFrameworksPerformanceTester.exe.config
+d:\Moje stvari\Projekt\DIFrameworksPerformanceTester\DIFrameworksPerformanceTester\bin\Debug\DIFrameworksPerformanceTester.exe.config
+d:\Moje stvari\Projekt\DIFrameworksPerformanceTester\DIFrameworksPerformanceTester\obj\Debug\DIFrameworksPerformanceTester.csprojResolveAssemblyReference.cache
+d:\Moje stvari\Projekt\DIFrameworksPerformanceTester\DIFrameworksPerformanceTester\bin\Debug\DIFrameworksPerformanceTester.exe
+d:\Moje stvari\Projekt\DIFrameworksPerformanceTester\DIFrameworksPerformanceTester\bin\Debug\DIFrameworksPerformanceTester.pdb
+d:\Moje stvari\Projekt\DIFrameworksPerformanceTester\DIFrameworksPerformanceTester\bin\Debug\Ninject.dll
+d:\Moje stvari\Projekt\DIFrameworksPerformanceTester\DIFrameworksPerformanceTester\bin\Debug\SimpleInjector.dll
+d:\Moje stvari\Projekt\DIFrameworksPerformanceTester\DIFrameworksPerformanceTester\bin\Debug\StructureMap.dll
+d:\Moje stvari\Projekt\DIFrameworksPerformanceTester\DIFrameworksPerformanceTester\bin\Debug\Ninject.pdb
+d:\Moje stvari\Projekt\DIFrameworksPerformanceTester\DIFrameworksPerformanceTester\bin\Debug\Ninject.xml
+d:\Moje stvari\Projekt\DIFrameworksPerformanceTester\DIFrameworksPerformanceTester\bin\Debug\SimpleInjector.xml
+d:\Moje stvari\Projekt\DIFrameworksPerformanceTester\DIFrameworksPerformanceTester\bin\Debug\StructureMap.xml
+d:\Moje stvari\Projekt\DIFrameworksPerformanceTester\DIFrameworksPerformanceTester\obj\Debug\DIFrameworksPerformanceTester.exe
+d:\Moje stvari\Projekt\DIFrameworksPerformanceTester\DIFrameworksPerformanceTester\obj\Debug\DIFrameworksPerformanceTester.pdb

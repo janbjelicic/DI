@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{56840DD7-2E1C-4091-97DD-4963D335E33A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DIFrameworksPerformanceTester</RootNamespace>
+    <AssemblyName>DIFrameworksPerformanceTester</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ninject">
+      <HintPath>..\..\Examples.DependancyInjection\Assemblies\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleInjector">
+      <HintPath>..\..\SimpleInjector Runtime Library v2.6.0\NET45\SimpleInjector.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap">
+      <HintPath>..\..\StructureMap2.5.4\deploy\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IContainerBase.cs" />
+    <Compile Include="Frameworks.cs" />
+    <Compile Include="Log\Data.cs" />
+    <Compile Include="Log\InterceptionLogger.cs" />
+    <Compile Include="Log\NinjectInterceptionLogger.cs" />
+    <Compile Include="Log\SimpleInjectorInterceptionLogger.cs" />
+    <Compile Include="Log\StructureMapInterceptionLogger.cs" />
+    <Compile Include="TestClasses\Conditional.cs" />
+    <Compile Include="TestNinject\TestNinject.cs" />
+    <Compile Include="TestSimpleInjector\TestSimpleInjector.cs" />
+    <Compile Include="TestService.cs" />
+    <Compile Include="HelloWorld\NinjectHelloWorld.cs" />
+    <Compile Include="HelloWorld\SimpleInjectorHelloWorld.cs" />
+    <Compile Include="HelloWorld\StructureMapHelloWorld.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestStructureMap\TestStructureMap.cs" />
+    <Compile Include="TestClasses\Calculator.cs" />
+    <Compile Include="TestClasses\Collection.cs" />
+    <Compile Include="TestClasses\Combined.cs" />
+    <Compile Include="TestClasses\Dynamic.cs" />
+    <Compile Include="TestClasses\Generic.cs" />
+    <Compile Include="TestClasses\NotSingleton.cs" />
+    <Compile Include="TestClasses\Singleton.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

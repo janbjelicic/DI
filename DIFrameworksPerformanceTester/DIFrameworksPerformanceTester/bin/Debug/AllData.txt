@@ -1,0 +1,2 @@
+StructureMap		Ninject		 SimpleInjector
+00:00:00.0012705 00:00:00.0012678 00:00:00.0012296
